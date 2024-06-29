@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e06ebe26e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#sectionaHome">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#sectionServices">Services</a>
+                <a class="nav-item nav-link" href="#sectionProducts">Products</a>
+                <a class="nav-item nav-link disabled" href="#sectionExplore">Explore Deals & Offers</a>
+                <a class="nav-item nav-link" href="#sectionBlogs">Trending Blogs</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mb-3" id="sectionHome">
+        <div class="row">
+            <div class="col-12 d-md-none">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-sm-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-sm-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-sm-img.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12 d-none d-md-block">
+                <div id="carouselExampleIndicatorsMedium" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicatorsMedium" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicatorsMedium" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicatorsMedium" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block d-md-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-1-img.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-2-img.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-carousel-3-img.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicatorsMedium" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicatorsMedium" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-3" id="sectionServices">
+        <div class="row">
+            <div class="col-12">
+                <h1  class="services">Our Services</h1>
+                <p>Most online stores offer lower prices. Online sjopping makes price comparision simpler and quicker. I is very convenient to shop from where you are located. It saves you the cost of driving to stores, as well as parking fees</p>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card text-center p-3 shadow">
+                    <div>
+                        <img class="image-services" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-delivery-img.png" />
+                    </div>
+                    <h2>Fast and Free Delivery</h2>
+                    <p>Fast, free and convenient delivery choices on millions of items</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4  mb-3">
+                <div class="card text-center p-3 shadow">
+                    <div>
+                        <img class="image-services" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-money-back-img.png" />
+                    </div>
+                    <h2>100% Money back guarantee</h2>
+                    <p>Fast, free and convenient delivery choices on millions of items</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 ">
+                <div class="card text-center p-3 shadow">
+                    <div>
+                        <img class="image-services" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-services-24-by-7-support-img.png" />
+                    </div>
+                    <h2>Online Support 24/7</h2>
+                    <p>Fast, free and convenient delivery choices on millions of items</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-3" id="sectionProducts">
+        <div class="row">
+            <div class="col-12">
+                <h1>Our Products</h1>
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="product-1 d-flex flex-column justify-content-end">
+                    <h1 class="mt-5">Smart HeadPhones</h1>
+                    <p>Headphone with Deep Bass, sound touch</p>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="view" data-toggle="modal" data-target="#exampleModalLong">
+                            View Details
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Sony</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Is the best smart Headphone
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="product-2 d-flex flex-column justify-content-end">
+                    <h1 class="mt-5">Laptos</h1>
+                    <p>Explore vast selection of Laptops</p>
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="view" data-toggle="modal" data-target="#exampleModalLong-1">
+                            View Details
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModalLong-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle-1">Laptop</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Is the best Laptop
+                                    </div>
+                                    <div class="modal-footer">
+
+                                        <button type="button" class="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex flex-row justify-content-end">
+                <p class="p">See All Offers <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-Blogs" id="sectionsBlogs">
+        <h1>Trending Blogs</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-3 shadow">
+                <a>
+                    <img class="image-blogs" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-1-img.png" />
+                </a>
+                <div class="card-1 p-3">
+                    <div>
+                        <p>Fountain pens</p>
+                        <h3>Guide to Fountain Pen Nibs</h3>
+                        <p>If you're having trouble with a fountain pen whether its scratchy, too dry, or too wet...</p>
+                        <p class="read">READ MORE <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 shadow">
+
+                <img class="image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-trending-blogs-2-img.png" />
+                <div class="card-1 p-3 shaddow">
+                    <div>
+                        <p>Productivity</p>
+                        <h3>How to Craft a Better TODO List</h3>
+                        <p>If you're having trouble with a fountain pen whether its scratchy, too dry, or too wet...</p>
+                        <p class="read">READ MORE <i class="fa-solid fa-arrow-right"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-explore" id="sectionsExplore">
+        <h1>Explore Deals & Offers</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 shadow mb-3">
+                <div class="card p-3">
+                    <h3>Up to 80% Off | Electronics & Gadgets</h3>
+                    <div class="d-flex flex-row text-center">
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-mamba-watch-img.png" />
+                            <p>Smart Watch</p>
+                        </div>
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-camera-img.png" />
+                            <p>Cameras</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row text-center">
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-sport-and-fitness-img.png" />
+                            <p>Sports & Fitness</p>
+                        </div>
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-ear-phones-pink-img.png" />
+                            <p>Earphones</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="arrow">See All Deals<i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 shadow mb-3">
+                <div class="card p-3">
+                    <h3>Festive Offers TV's & appliances</h3>
+                    <div>
+                        <img class="image-1-explore p-3" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tv-img.png" />
+                    </div>
+                    <div>
+                        <p class="arrow">See All Deals<i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 shadow">
+                <div class="card p-3">
+                    <h3>Under Rs 4000 | Friendly Accessories</h3>
+                    <div class="d-flex flex-row text-center">
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-tablet-device-img.png" />
+                            <p>Tablet</p>
+                        </div>
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-joy-stick-img.png" />
+                            <p>PlayStation</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row text-center">
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-speakers-big-img.png" />
+                            <p>Speakers</p>
+                        </div>
+                        <div>
+                            <img class="image-explore" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-explore-vr-set-img.png" />
+                            <p>Virtual Reality Set</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="arrow">See All Deals<i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-contact text-center p-3">
+        <div class="row">
+            <div class="col-12">
+                <h1>Let us Join Together</h1>
+                <button class="btn-contact">CONTACT US</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-footer p-3 pt-5" id="sectionFooter">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 text-center">
+                <div>
+                    <div>
+                        <img class="image-footer" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" />
+                    </div>
+                    <i class="icon fa-brands fa-google"></i>
+                    <i class="icon fa-brands fa-twitter"></i>
+                    <i class="icon fa-brands fa-instagram"></i>
+                    <i class="icon fa-brands fa-linkedin"></i>
+                    <div class="mt-3">
+                        <p>37, Ayur Vigyan Nagar, New Delhi, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+                <h3>Get to Know us</h3>
+                <p>About us</p>
+                <p>Career</p>
+                <p>Press Releases</p>
+                <p>Gift a smile</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+                <h3>Contact with us</h3>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3">
+                <h3>Let us Help You</h3>
+                <p>100% Purchase Protection</p>
+                <p>Your Account</p>
+                <p>Return centre</p>
+                <p>Help</p>
+            </div>
+            <hr>
+            <div class="col-12 d-flex flex-row justify-content-center">
+                <div>
+                    <p><i class="fa-regular fa-copyright"></i> 2020 by Rahul. Created with Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
